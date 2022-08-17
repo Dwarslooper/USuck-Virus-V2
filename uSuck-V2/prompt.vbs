@@ -1,0 +1,2 @@
+a = MsgBox("Welcome to Project Ether! Before you continue, a quick reminder. If you grief or exploit a server there is a good chance you will get banned. The creator will not be responsible for any damage caused by this. Do you want to continue?", 4, "Welcome to Project Ether")
+If a = 6 Then 
